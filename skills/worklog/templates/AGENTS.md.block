@@ -1,0 +1,14 @@
+<!-- WORKLOG:START -->
+## Worklog Gate — write the record as you work
+
+For every non-trivial build, debug, migration, or ops task, even when the user does not name a skill:
+
+- Apply the `worklog` skill. If it is not listed, read `$HOME/.agents/skills/worklog/SKILL.md` directly.
+- At session start, read the top entry of the repo's journal before editing: `WORKLOG.md` at the repo root, or the project's existing log (for example, `docs/implementation-log.md`). One journal per repo — never create a second.
+- Append at checkpoints, never per tool call: a `DOD-N` closes, expected did not match actual, before and after a risky action, the user corrects you, or the session ends or hands off.
+- Each entry carries four fields: **Done** (with evidence), **Learned** (expected vs actual, root cause, lesson, `Seen before: yes/no`), **Went wrong** (mandatory and specific), **Next** (identical to `PROJECT_FOCUS.md` Next Single Action).
+- Change process only on a lesson seen twice; a single observation is an anecdote.
+- Never write secrets into the journal — service names only. It may be mirrored to the declared destination.
+- After appending, mirror the entry to the deploy destination (commit it, or copy to the declared remote workspace). Read the destination's top entry first and merge both histories in time order; never overwrite it blind. If mirroring fails, mark the entry `mirror: pending` and say so.
+- `PROJECT_FOCUS.md` owns the plan and the next action; `DECISIONS.md` owns rationale; `BACKLOG.md` owns deferred work. The journal records what happened and what was learned, and points at the rest rather than duplicating it.
+<!-- WORKLOG:END -->
