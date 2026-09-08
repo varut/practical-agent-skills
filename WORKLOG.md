@@ -2,6 +2,12 @@
 
 Plan and next action are owned by PROJECT_FOCUS.md. Mirror target: GitHub commits.
 
+## 2026-09-08 · DOD-3 publication verified · Codex · mirror: synced
+**Done:** Published all four skill packages, five guides, and four original illustrations. At content snapshot cb2961a6e2c1e505ed29281a495ba63d746afd8d, all 29 public blobs match the prepared files. All four guides and PNGs return HTTP 200 without authentication; browser checks confirm the guide links and loaded images. Public URL: https://github.com/varut/practical-agent-skills.
+**Learned:** GitHub supports nested upload targets even before the target folder exists. Its upload progress can outlast browser-tool waits, so an expired wait does not establish a failed upload. Seen before: yes.
+**Went wrong:** Several browser waits expired while GitHub was still processing successful operations. Each operation was inspected before continuing; no duplicate publication was needed. System Python lacked a trusted certificate chain for the read check; curl completed it with normal TLS verification.
+**Next:** DONE: Share the verified public collection URL; all three acceptance criteria are complete.
+
 ## 2026-09-08 · Publication resumes · Codex · mirror: pending
 **Done:** User enabled browser-extension file access. The signed-in session confirms the empty public collection repository; the upload chooser is available.
 **Learned:** A user-controlled extension permission is a prerequisite for this browser upload route. Seen before: yes.
