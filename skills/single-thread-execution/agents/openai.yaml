@@ -1,0 +1,8 @@
+interface:
+  display_name: "Outcome-First Delivery"
+  short_description: "Finish one outcome without scope drift"
+  default_prompt: "Use $single-thread-execution to deliver the smallest complete outcome without expanding scope."
+
+policy:
+  allow_implicit_invocation: true
+
