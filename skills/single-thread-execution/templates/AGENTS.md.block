@@ -1,0 +1,36 @@
+<!-- SINGLE_THREAD_EXECUTION:START -->
+## Universal Outcome-First Delivery Gate
+
+For every non-trivial project task, even when the user does not name a skill:
+
+- Apply the `single-thread-execution` skill before broad research, planning, editing, delegation, or deployment. If it is not listed, read `$HOME/.agents/skills/single-thread-execution/SKILL.md` directly.
+- Preserve the user's exact outcome and maintain one Primary Outcome, one bounded Active Build, one Delivery Tier, one authority, labeled `DOD-N` criteria, and exactly one mapped Next Single Action.
+- Surface identity, consent, access, credential, paid-resource, provider, approval, and deployment prerequisites during the first meaningful pass.
+- Admit work only when it closes a current `DOD-N` or removes a recorded blocker. Backlog everything else without implementing it.
+- Treat “do everything” as a roadmap plus one first complete vertical slice; never as permission to run several builds at once.
+- After two failed approaches or two updates without new DOD evidence, stop and re-plan instead of expanding scope.
+- If an external action blocks the next criterion, state `BLOCKED`, ask for the one exact action, and stop adjacent work.
+- Use minimum sufficient evidence for the declared tier while preserving mandatory security, compliance, tenant, migration, and data-integrity gates.
+- For authorized change/build work, read or create `PROJECT_FOCUS.md`, `BACKLOG.md`, and `DECISIONS.md`, then run the skill's guard. For read-only work, do not create or modify those files; keep the contract in memory.
+- Never claim an exact usage percentage unless it is observable. At an observable 80% budget, freeze scope, validate, and hand off.
+<!-- SINGLE_THREAD_EXECUTION:END -->
+
+<!-- SIMPLICITY_GATE:START -->
+## Simplicity Gate — Smallest Verified Change
+
+For every code change, at any reasoning effort: spend surplus reasoning finding, shrinking, and verifying the smallest correct diff — never on construction nobody ordered.
+
+- "Thorough" means certain the minimal diff is correct — not more layers, cases, options, or tests.
+- Before editing, search the repo for an existing mechanism that already does this; reuse or extend it, or name the search that proved it absent.
+- State the smallest plausible diff (files, rough line count) before editing; if the real diff exceeds ~3x that estimate, stop and shrink it or record a one-line justification where decisions live before continuing.
+- New abstraction (interface, base class, wrapper, layer, registry): needs two concrete call sites in the current diff; one caller means inline it.
+- New file or module: name the existing file the change could not fit and why; otherwise extend that file.
+- New dependency: needs one named failed attempt with the standard library or an existing dependency.
+- New config option, flag, parameter, or env var: needs a current requirement that reads both values; otherwise hardcode the single value.
+- New error type or defensive branch: needs a real input that reaches it today; impossible states get an assert or nothing.
+- Never rewrite, rename, or move a working unit the diff only had to touch; rewrites need the user's explicit request or a criterion unreachable by patching.
+- Defer "while I'm here" refactors, hardening, and polish to a backlog note; do not implement them in this change.
+- Test only behavior in the acceptance criteria; delete any added code the planned evidence never exercised.
+- When two designs pass the same criteria, take the one with fewer new names (files, types, functions, options); count, do not argue.
+<!-- SIMPLICITY_GATE:END -->
+
