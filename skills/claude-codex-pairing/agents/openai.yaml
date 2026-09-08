@@ -1,0 +1,3 @@
+interface:
+  display_name: "Claude Codex Pairing"
+  short_description: "Route one bounded read-only peer review"
