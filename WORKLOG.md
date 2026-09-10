@@ -2,6 +2,18 @@
 
 Plan and next action are owned by PROJECT_FOCUS.md. Mirror target: GitHub commits.
 
+## 2026-09-10 · DOD-3 publication verified · Codex · mirror: synced
+**Done:** Published the updated skill and two guides through GitHub's text editor. Public snapshot 06128d28575610f162b5fbc8039111387ddba77f matches all three reviewed files byte for byte. Both installed skill copies match SHA256 b76b9c05ded99fc1124d2f02e92b00fc5c2f2a706ffb6007addd3136a84f24b9. Structural validation, relative links, and ten-case author scenario review passed; no application E2E run is claimed.
+**Learned:** Browser sign-in permits normal text editing even when extension-mediated file upload is unavailable. Readback establishes successful publication after transient UI waits. Seen before: yes.
+**Went wrong:** Git CLI had no authentication or configured author identity, and the browser upload lacked extension file access. Used signed-in GitHub text editing without changing permissions or Git identity. One stale browser node and navigation timeout required fresh page inspection; no duplicate mutation was submitted.
+**Next:** DONE: Share the updated skill and its verified GitHub publication.
+
+## 2026-09-10 · DOD-1/DOD-2 and pre-publication · Codex · mirror: synced
+**Done:** Reconciled newer installed E2E guidance, added an intended-flow contract and rule-derived adversarial checks, and updated both guides. Skill validator, relative links, ten-case author scenario review, and both local installation byte checks pass. Browser confirms repository ownership and editing access.
+**Learned:** Green cases covered a preferred setup and a different input method while missing ordinary user paths. Requirements, exact entry points, and input methods must define coverage. Seen before: yes.
+**Went wrong:** CLI publication lacked unattended authentication; user restored browser sign-in. Both Python runtimes lacked PyYAML; the validator dependency was installed in a temporary validation folder only. An initial patch context mismatch applied no edits; the corrected patch succeeded. Focus-state and whitespace checks caught drafting errors that were corrected. Browser upload was then blocked by extension file-URL access; no files were attached.
+**Next:** BLOCKER: Enable browser extension file-URL access to publish the validated update for DOD-3.
+
 ## 2026-09-08 · DOD-3 publication verified · Codex · mirror: synced
 **Done:** Published all four skill packages, five guides, and four original illustrations. At content snapshot cb2961a6e2c1e505ed29281a495ba63d746afd8d, all 29 public blobs match the prepared files. All four guides and PNGs return HTTP 200 without authentication; browser checks confirm the guide links and loaded images. Public URL: https://github.com/varut/practical-agent-skills.
 **Learned:** GitHub supports nested upload targets even before the target folder exists. Its upload progress can outlast browser-tool waits, so an expired wait does not establish a failed upload. Seen before: yes.
