@@ -8,7 +8,7 @@ Each skill is a set of instructions an agent can read and follow. They add worki
 
 | Skill | The habit | Start here |
 |---|---|---|
-| **Careless User E2E** | Make a believable mistake in the real UI, repair it, and check the repair. | [Guide](skills/careless-user-e2e/) · [Instructions](skills/careless-user-e2e/SKILL.md) |
+| **Careless User E2E** | Learn the intended flow, challenge its order and rules in the real UI, and verify recovery. | [Guide](skills/careless-user-e2e/) · [Instructions](skills/careless-user-e2e/SKILL.md) |
 | **Single-Thread Execution** | Bind one outcome, one authority, and one next action. Finish the smallest sufficient change. | [Guide](skills/single-thread-execution/) · [Instructions](skills/single-thread-execution/SKILL.md) |
 | **Worklog** | Leave the next session evidence, lessons, and an exact next step. | [Guide](skills/worklog/) · [Instructions](skills/worklog/SKILL.md) |
 | **Claude–Codex Pairing** | Ask for one bounded second opinion while keeping a single writer. | [Guide](skills/claude-codex-pairing/) · [Instructions](skills/claude-codex-pairing/SKILL.md) |
@@ -17,7 +17,7 @@ Each skill is a set of instructions an agent can read and follow. They add worki
 
 [![A distracted tester launches duplicate receipts while a tiny robot raises an eyebrow.](skills/careless-user-e2e/assets/hero.png)](skills/careless-user-e2e/)
 
-**Careless User E2E** treats recovery as part of the feature. Enter the wrong value, choose the similar-looking record, click again because nothing seemed to happen. Then fix it and see what else changed. [Read the guide →](skills/careless-user-e2e/)
+**Careless User E2E** learns the intended workflow, then challenges it. Create things in a different order, submit from a stale tab, or cancel halfway through. Check which alternatives should work, which shortcuts must fail, and whether recovery leaves the saved records correct. [Read the guide →](skills/careless-user-e2e/)
 
 ## Your tiny fix has applied for planning permission.
 
