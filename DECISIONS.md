@@ -11,3 +11,9 @@ Expected changes: four copied skill trees, roughly 30 lines of portability edits
 Ponytail and other installed third-party skills are excluded from the original collection. Ponytail is only a humor reference; images are newly generated. No project/client names or private setup records belong in the release. No license grant has been selected.
 
 Browser file attachment failed, and the existing connector returned a 403 on write. Do not treat repository permission metadata as a successful write. Use the signed-in Chrome publishing path once the final release is ready.
+
+## 2026-09-10 — Expected behavior before adversarial testing
+
+Reconcile the newer installed E2E instructions into the published package. Add a short intended-flow contract, then derive legitimate reordered journeys and forbidden bypass probes from its rules. Requirements and user intent define expected behavior; current code is evidence to investigate, not proof that a restriction is correct. Keep scope and production authorization bounded.
+
+Smallest expected diff: the existing skill (about 80 new lines beyond the installed version), its guide and collection summary (about 30 lines), and existing delivery records. No new framework, dependencies, or additional skills. Validate structure and scenario decisions; do not describe a skill review as application E2E evidence.
