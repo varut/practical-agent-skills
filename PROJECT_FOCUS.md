@@ -1,69 +1,69 @@
 # Project Focus
 
 ## Exact User Outcome
-Publish careless-user-e2e and other original skills worth sharing, with proper write-ups and a funny image for each; omit client and project names.
+Update careless-user-e2e locally and on GitHub so it learns the intended workflow first, then challenges it to uncover more flow bugs.
 
 ## Primary Outcome
-A public GitHub collection of selected original skills, anonymous usage write-ups, and original humorous illustrations.
+One consistent, published skill that tests intended behavior, legitimate alternative paths, forbidden bypasses, and durable recovery through the actual UI.
 
 ## Why This Matters
-Give recipients one link to read, download, and install the selected skills.
+Passing scripts missed ordinary creation orders and real pointer interactions.
 
 ## Success Metric
-The public repository contains four complete skill packages, accurate guides, and four working illustrations.
+The updated instructions and guide pass structural and scenario review; installed copies and public GitHub content match.
 
 ## Delivery Tier
 GENERAL AVAILABILITY
 
 ## Authority
-- Source: Four installed original skill trees copied into this release directory; only Worklog receives portability edits.
-- Runtime/target: GitHub repository varut/practical-agent-skills (renamed from the empty skill repository).
-- Branch/version/dirty state: Public default branch main; reviewed content snapshot cb2961a6e2c1e505ed29281a495ba63d746afd8d. This release directory contains only prepared publication files.
+- Source: varut/practical-agent-skills, reconciling the newer installed careless-user-e2e instructions.
+- Runtime/target: Local Codex and Claude skill installations plus the existing public GitHub repository.
+- Branch/version/dirty state: main at 0d9eaab2f79ae34ba29ad5cfaec0c69176a75691; clean checkout before this update.
 
 ## Active Build
-Publish one curated original-skill collection with documentation and one illustration per skill.
+Update the existing E2E skill and guide, validate, synchronize installations, and publish.
 
 ## Status
 DONE
 
 ## Definition of Done
-- [x] DOD-1: Select original skills using source provenance and prepare portable versions without project or client identifiers.
-- [x] DOD-2: Each selected skill has a clear write-up, installation instructions, and a reviewed original funny image.
-- [x] DOD-3: The collection is published on GitHub and public files, images, and links are verified.
+- [x] DOD-1: Instructions define expected-flow evidence and targeted adversarial cases without expanding test authority.
+- [x] DOD-2: Guide agrees with instructions; structural validation and scenario review pass; local installations match.
+- [x] DOD-3: Reviewed files are published to GitHub and verified by content readback.
 
 ## External Prerequisites
-- READY — User requested GitHub publication and supplied their signed-in Chrome session; repository owner is varut.
-- READY — Public copies have no project names, private paths, or credentials. Python and peer-agent requirements are documented.
-- READY — User enabled browser-extension file access; all uploads succeeded.
-- NOT-REQUIRED — Paid services, new credentials, account creation, and application deployment.
+- READY — User explicitly requested the skill update and GitHub publication.
+- READY — Existing public repository and local skill sources identified.
+- READY — User signed into GitHub; repository UI confirms ownership and editing access.
+- READY — Published through the normal GitHub text editor; extension upload access was not needed.
+- NOT-REQUIRED — App deployment, paid services, new product dependencies, and broader security testing.
 
 ## Evidence Plan
-- DOD-1: Local provenance audit, dependency inventory, and privacy scan of all distributable files.
-- DOD-2: Review rendered Markdown and each generated image; verify installation layout and referenced assets.
-- DOD-3: Public GitHub UI and unauthenticated reads match release files and expose working images.
+- DOD-1: Review intended-flow contract, alternate versus forbidden paths, state assertions, and prior-miss coverage.
+- DOD-2: Skill validator, focused scenario dry-run, guide/link review, and matching local hashes.
+- DOD-3: Commit and public file readback match reviewed bytes; preserve existing remote history.
 
 ## Budget and Handoff
 - Budget: NOT OBSERVABLE; no explicit user budget.
-- Stop/replan: After two failed approaches or two updates without new DOD evidence.
-- Handoff: If browser access or the publication path requires user action.
+- Stop/replan: Two failed publication approaches; finish local preparation and report the exact access blocker.
+- Handoff: Publication requires a signed-in GitHub session or existing authorized write access.
 
 ## In Scope
-- Original portable skills, readable anonymous use cases, original humorous images, and delivery records.
+The careless-user-e2e instructions, existing guides, local installations, and required delivery records.
 
 ## Out of Scope
-- Third-party skills claimed as original, private project details, plugin conversion, and new methods unrelated to the selected original skills.
+Application edits or deployment, other skill changes, new tooling, and claims that instruction review is a live E2E run.
 
 ## Current Evidence
-- DOD-1: Four original skill packages selected using local provenance. Three source trees are preserved; Worklog has generic paths and authority instructions. The distribution privacy scan and text review found no project/client names, private paths, or credentials.
-- DOD-2: Five rendered guides, four original cartoons, and artwork prompts are present. All four skill validators pass; the included guard passes its 10 existing tests. Installation prerequisites and the manual/installer path distinction are documented.
-- DOD-3: Public main snapshot cb2961a6e2c1e505ed29281a495ba63d746afd8d contains exactly 29 blobs matching local bytes. Unauthenticated requests return 200 for all four guides and all four PNGs. Browser checks followed each collection guide link, confirmed all four titles, and observed all four images loading at 1536 by 1024. The public repository description covers the full collection.
-- Share URL: https://github.com/varut/practical-agent-skills
+- DOD-1: Intended-flow contract and rule-derived adversarial checks reviewed.
+- DOD-2: Skill validator, relative-link checks, ten-case author scenario review, and local installation byte parity pass. The scenario review is not live E2E evidence.
+- DOD-3: Public content snapshot 06128d28575610f162b5fbc8039111387ddba77f matches all three reviewed content files byte for byte. Skill SHA256 b76b9c05ded99fc1124d2f02e92b00fc5c2f2a706ffb6007addd3136a84f24b9 matches both installations.
 
 ## Current Blockers
-- None.
+None.
 
 ## Next Single Action
-DONE: Share the verified public collection URL; all three acceptance criteria are complete.
+DONE: Share the updated skill and its verified GitHub publication.
 
 ## Last Updated
-2026-09-08
+2026-09-10
